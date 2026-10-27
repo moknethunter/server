@@ -1,0 +1,17 @@
+{
+  "name": "voice-server",
+  "version": "1.0.0",
+  "description": "Voice chat server with plugin kernel",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
